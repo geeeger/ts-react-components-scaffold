@@ -1,0 +1,8 @@
+.storybook
+.vscode
+.idea
+lib
+dist
+build
+scripts
+node_modules

@@ -1,0 +1,23 @@
+{
+    "settings": {
+        "rulers": [100],
+
+        "detect_indentation": false,
+
+        "translate_tabs_to_spaces": true,
+
+        "tab_size": 4,
+
+        "auto_indent": true,
+
+        "trim_trailing_white_space_on_save": true
+    },
+
+    "folders": [
+        {
+            "path": ".",
+            "folder_exclude_patterns": [],
+            "file_exclude_patterns": []
+        }
+    ]
+}

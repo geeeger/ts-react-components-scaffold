@@ -1,0 +1,4 @@
+{
+    "components/**/*.{js,jsx,ts,tsx}": ["eslint --fix", "git add"],
+    "components/**/*.less": ["stylelint --fix --syntax=less", "git add"],
+}

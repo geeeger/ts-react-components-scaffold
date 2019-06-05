@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "build/lib",
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "sourceMap": true,
+        "allowJs": false,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "rootDirs": ["components", "stories"],
+        "baseUrl": "components",
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "declaration": true,
+        "experimentalDecorators": true
+    },
+    "include": ["components/**/*"],
+    "exclude": ["node_modules", "build", "scripts", "lib", "dist", "public"]
+}
