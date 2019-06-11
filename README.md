@@ -2,11 +2,11 @@
 
 ## 使用工具
 
-- webpack@^4.28.0
-- typescript@^3.5.0
-- [storybook/react@^5.0.11](https://storybook.js.org/docs/guides/guide-react/)
-- [jest@24.7.1](https://jestjs.io/)
-- gulp@^4.0.0
+- webpack@\^4.28.0
+- typescript@\^3.5.0
+- storybook/react@\^5.0.11
+- jest@24.7.1
+- gulp@\^4.0.0
 
 
 ## 参考工具 (cv)
@@ -28,7 +28,7 @@
 + [eslint-config-react-app文档](https://www.npmjs.com/package/eslint-config-react-app)
 + [eslint中文文档](https://cn.eslint.org/)
 + [stylelint文档](https://stylelint.io/)
-+ [@commitlint/angular文档]
++ [@commitlint/configangular文档](https://www.npmjs.com/package/@commitlint/config-angular)
 + [husky git钩子文档](https://github.com/typicode/husky/blob/master/DOCS.md)
 + [lint-staged文档](https://github.com/okonet/lint-staged)
 + [preitter文档](https://prettier.io/docs/en/)
