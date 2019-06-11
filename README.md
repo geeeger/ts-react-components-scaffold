@@ -58,6 +58,14 @@
 
 将保护master分支，开发分支时从master检出，由owner检查代码后合并至master(目前没有ci，没有集成ci功能)
 
+#### vscode sublime支持
+
+如果使用vsc请升级最新vscode并安装推荐插件，
+
+如果使用sublime请升级最新版本，并在菜单-项目-打开项目中选择components.sublime-project。
+
+sublime功能并不完善，建议使用vsc进行开发。
+
 ### Usage
 
 安装项目依赖
