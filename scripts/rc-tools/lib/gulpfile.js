@@ -10,12 +10,6 @@ const packTasks = require("./gulpTasks/packTasks");
 
 packTasks(gulp);
 
-// ============================ Code Style ===========================
-
-const codeStyleTasks = require("./gulpTasks/codeStyleTasks");
-
-codeStyleTasks(gulp);
-
 /**
  * 抓取全局错误，原rc-tools在series处理后不抓错
  * 导致不知道发生了什么

@@ -6,9 +6,6 @@ function cleanCompile(done) {
     if (fs.existsSync(paths.appLib)) {
         rimraf.sync(paths.appLib);
     }
-    if (fs.existsSync(paths.appEs)) {
-        rimraf.sync(paths.appEs);
-    }
     done();
 }
 
