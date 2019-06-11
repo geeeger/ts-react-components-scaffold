@@ -1,30 +1,12 @@
 #!/usr/bin/env node
-require("colorful").colorful();
 const program = require("commander");
 
 program.on("--help", () => {
-    console.log("  Usage:".to.bold.blue.color);
+    console.log("  Usage:");
     console.log();
-    console.log(
-        "    $",
-        "rc-tools run test".to.magenta.color,
-        "lint source within lib"
-    );
-    console.log(
-        "    $",
-        "rc-tools run compile".to.magenta.color,
-        "compile component"
-    );
-    console.log(
-        "    $",
-        "rc-tools run dist".to.magenta.color,
-        "build umd component"
-    );
-    console.log(
-        "    $",
-        "rc-tools run pretter".to.magenta.color,
-        "pretter all code"
-    );
+    console.log("    $", "rc-tools run js", "compile component to lib use tsc");
+    console.log("    $", "rc-tools run compile", "compile component");
+    console.log("    $", "rc-tools run dist", "build umd component");
     console.log();
 });
 
